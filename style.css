@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.firstDiv{
+   display: flex;
+   justify-content: center;
+   margin: 2rem;
+   flex-direction: column;
+}
+
+.gridContainer{
+    display: flex;
+    border: 2px solid black;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.box{
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    background-color: aquamarine;
+    border: 2px solid red;
+    margin: 2px;
+}
